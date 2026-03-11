@@ -1,0 +1,809 @@
+{
+  "body": {
+    "requestId": "32362397-6b1c-41ec-a07f-f13981d2db79",
+    "status": "APPROVED",
+    "type": "cnh",
+    "images": {
+      "front": "https://caf-prod-customers-storage.s3.us-east-1.amazonaws.com/1df5c2cc-57d6-44ef-8939-4fd0181f34f7/transactions/6917404020056d000201c27d_cnh_both.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAS6F2XPA73EMECVMK%2F20251215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T172747Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIAsyT%2F7x0I7iyKRsu4jeayX9PnqHSFmaLqTCDR0rPpSrAiAxIwsRSR2IljCo2lBHd17A5i7fdnnJrttl3CQ6%2F4dVDyqIAwhSEAQaDDIwMjI1NTA3MTI5NSIMolTkV0bbXqtAIOOzKuUCZ%2FvNoiqzGATlBzEEQytcdUfd6%2FlERGVfR2DdJwgTTJSlfTMudG1hh2KLrarWanw0dc9iS6FFKGFqiznSOTyNdwmI%2F63s3TB%2BACoRrxMlD90%2BtY%2FcDVL2xZTYjou%2BlQLfPszjHhtP2pG6WtzJFKYCKMY3dlPlOUcwUlaJgJjx0y8e1Rs38olPmZcT8RcNIg7g3QNZ%2FlGqKKaZwsw3LTdIO%2FgRVLWl0xm7olROCN2AyEbfkfMM1Ke5hMqUvZSS%2BaaRKinBrWRDi0dUyNWcqE47DIeFr5Toxji44YPYAfzWeK79NXdEX1RY7kdo%2BAQ8RoisSGY0%2BAfkoA4WbJXFjl43OmjyXX2epkQ1g0suTv17dr1WO6u1u3d7GWMpDUrPeNQUNls1xSrZpY9cZNZMltsZbJhNybYx2Adlh%2FIjiPrvHo1ncWuMzl2%2Bo7bz0x1sDD2BDB8h%2BVJJGvXX2hNG8xRVQdeKjfo%2BMIz2gMoGOp8Bx5YNVq1k%2BIV3TykcbHQXGUWLdQojwfNbO%2FMXedNjQoqW0ZL%2FmQ50prqoR4Jiqt6ntyqYvicfVHafXqODPg7zF15ZOkcuXZE8WijN9LddPvuhWr%2F6BICKApvyRtabpeUHHhKhJAGf4we73ISnt2hZyAFCzsMKZuhoROenDcIJuT5sksOiAOAwuquGVFAfbmjrsyC6ZEwFPCDr507BiqN&X-Amz-Signature=a9587075be7aad72d5526a4b4a69d847cd717661dedd4a0884a396b9049e5ece&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "selfie": "https://caf-prod-customers-storage.s3.us-east-1.amazonaws.com/1df5c2cc-57d6-44ef-8939-4fd0181f34f7/transactions/6917404020056d000201c27d_selfie.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAS6F2XPA73EMECVMK%2F20251215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T172747Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIAsyT%2F7x0I7iyKRsu4jeayX9PnqHSFmaLqTCDR0rPpSrAiAxIwsRSR2IljCo2lBHd17A5i7fdnnJrttl3CQ6%2F4dVDyqIAwhSEAQaDDIwMjI1NTA3MTI5NSIMolTkV0bbXqtAIOOzKuUCZ%2FvNoiqzGATlBzEEQytcdUfd6%2FlERGVfR2DdJwgTTJSlfTMudG1hh2KLrarWanw0dc9iS6FFKGFqiznSOTyNdwmI%2F63s3TB%2BACoRrxMlD90%2BtY%2FcDVL2xZTYjou%2BlQLfPszjHhtP2pG6WtzJFKYCKMY3dlPlOUcwUlaJgJjx0y8e1Rs38olPmZcT8RcNIg7g3QNZ%2FlGqKKaZwsw3LTdIO%2FgRVLWl0xm7olROCN2AyEbfkfMM1Ke5hMqUvZSS%2BaaRKinBrWRDi0dUyNWcqE47DIeFr5Toxji44YPYAfzWeK79NXdEX1RY7kdo%2BAQ8RoisSGY0%2BAfkoA4WbJXFjl43OmjyXX2epkQ1g0suTv17dr1WO6u1u3d7GWMpDUrPeNQUNls1xSrZpY9cZNZMltsZbJhNybYx2Adlh%2FIjiPrvHo1ncWuMzl2%2Bo7bz0x1sDD2BDB8h%2BVJJGvXX2hNG8xRVQdeKjfo%2BMIz2gMoGOp8Bx5YNVq1k%2BIV3TykcbHQXGUWLdQojwfNbO%2FMXedNjQoqW0ZL%2FmQ50prqoR4Jiqt6ntyqYvicfVHafXqODPg7zF15ZOkcuXZE8WijN9LddPvuhWr%2F6BICKApvyhKhJAGf4we73ISnt2hZyAFCzsMKZuhoROenDcIJuT5sksOiAOAwuquGVFAfbmjrsyC6ZEwFPCDr507BiqN&X-Amz-Signature=60551d35d871e6ea96ce1700c1548c6b1fc9feed72472b5126d5286f75e3c753&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    "sections": {
+      "ocr": {
+        "name": "HAILTON ANJOS DOS SANTOS FILHO",
+        "firstDriverLicenseDate": "14/03/2005",
+        "birthDate": "07/10/1969",
+        "birthPlace": "FIRMINO ALVES",
+        "birthState": "BA",
+        "birthDateCityState": "07/10/1969, FIRMINO ALVES, BA",
+        "issueDate": "24/07/2023",
+        "expirationDate": "23/04/2026",
+        "acc": "",
+        "definitiveOrPermissionary": "D",
+        "rg": "23103763",
+        "rgMask": "99999999",
+        "rgIssuingAuthority": "SSP",
+        "rgIssueState": "SP",
+        "rgNumberAuthorityState": "23103763 SSP SP",
+        "cpf": "14244072810",
+        "cpfMask": "999.999.999-99",
+        "registrationNumber": "03534998770",
+        "category": "B",
+        "nationality": "BRASILEIRO(A)",
+        "fatherName": "HAILTON ANJO DOS SANTOS",
+        "motherName": "DERCIONISIA SOUZA PEREIRA",
+        "mirrorNumber": "2647042705",
+        "notes": "",
+        "placeOfIssue": "SAO PAULO, SP",
+        "securityNumber": "82166376313",
+        "renachNumber": "SP018982281",
+        "cnhIssueState": "SP"
+      },
+      "sharedFaceset": {
+        "statusCode": "01",
+        "data": {
+          "faceMatches": []
+        }
+      },
+      "imageSimilarityCheck": {
+        "statusCode": "01",
+        "data": {
+          "message": "Similarity search completed successfully.",
+          "isSimilar": false
+        }
+      },
+      "facematch": {
+        "statusCode": "01",
+        "confidence": 0.9097,
+        "identical": true,
+        "ageRange": "51 - 57",
+        "gender": "Male"
+      },
+      "pfBasicData": {
+        "statusCode": "01",
+        "data": {
+          "taxIdNumber": "14244072810",
+          "taxIdCountry": "BRAZIL",
+          "name": "HAILTON ANJOS DOS SANTOS FILHO",
+          "socialName": "",
+          "gender": "M",
+          "birthDate": "1969-10-07T00:00:00Z",
+          "birthCountry": "BRASILEIRA",
+          "motherName": "DERCIONISIA SOUZA PEREIRA",
+          "fatherName": "HAILTON ANJOS DOS SANTOS",
+          "taxIdStatus": "REGULAR",
+          "hasObitIndication": false,
+          "obitIndicationOrigin": "",
+          "obitIndicationYear": "",
+          "message": "Consulta realizada com sucesso."
+        }
+      },
+      "pfPhonesAlt": {
+        "statusCode": "01",
+        "data": {
+          "phones": [
+            {
+              "areaCode": "11",
+              "number": "971052690"
+            },
+            {
+              "areaCode": "11",
+              "number": "97105269"
+            },
+            {
+              "areaCode": "11",
+              "number": "995170608"
+            },
+            {
+              "areaCode": "11",
+              "number": "25184798"
+            },
+            {
+              "areaCode": "11",
+              "number": "25560795"
+            }
+          ]
+        },
+        "message": "Consulta realizada com sucesso"
+      },
+      "pfProcessesAlt": {
+        "statusCode": "01",
+        "data": {
+          "message": "Consulta realizada com sucesso",
+          "total": 8,
+          "results": [
+            {
+              "id": "0e650f1aba3cd33a679682961252affb",
+              "distributionDate": "2020-09-26",
+              "lawsuitDegree": "1",
+              "lawsuitId": "06019125020206260001",
+              "lawBranch": "ELEITORAL",
+              "segment": "JUSTICA ELEITORAL",
+              "isJusticeSecret": false,
+              "observationStatus": "ATIVO",
+              "court": "TRE-SP",
+              "state": "SP",
+              "actives": [
+                {
+                  "cpf": "14244072810",
+                  "name": "HAILTON ANJOS DOS SANTOS FILHO",
+                  "type": "REQUERENTE"
+                },
+                {
+                  "cnpj": "10505532000134",
+                  "name": "DEMOCRACIA CRISTA - DC - SAO PAULO",
+                  "type": "REQUERENTE"
+                }
+              ],
+              "authorType": "REQUERENTE"
+            },
+            {
+              "id": "246b09bb89a114832b4ecad179da48ad",
+              "lawsuitClass": "AGRAVO DE INSTRUMENTO",
+              "distributionDate": "2018-11-05",
+              "lawsuitDegree": "2",
+              "lawsuitId": "22385753520188260000",
+              "lawBranch": "CIVEL / ADMINISTRATIVO",
+              "segment": "JUSTICA ESTADUAL",
+              "complementaryStatus": "ARQUIVADO ADMINISTRATIVAMENTE",
+              "observationStatus": "ATIVO",
+              "court": "TJ SP",
+              "state": "SP",
+              "sourceUnit": "SAO PAULO",
+              "lawsuitUrl": "https://esaj.tjsp.jus.br/cposg/search.do?conversationId=&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsulta=&paginaConsulta=0&numeroDigitoAnoUnificado=0020936-57.2018&foroNumeroUnificado=0053&dePesquisaNuUnificado=0020936-57.2018.8.26.0053&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO&uuidCaptcha=",
+              "lawsuitValue": {
+                "currency": "R$",
+                "value": 17301.66
+              },
+              "subjects": [
+                "DIREITO PREVIDENCIARIO",
+                "BENEFICIOS EM ESPECIE",
+                "AUXILIO-DOENCA ACIDENTARIO"
+              ],
+              "moves": [
+                {
+                  "date": "2021-05-12",
+                  "description": "LEVANTAMENTO DA SUSPENSAO SOBRESTAMENTO REPERCUSSAO GERAL DEMANDAS REPETITIVAS - DIANTE DO ENCERRAMENTO/ARQUIVAMENTO DO FEITO."
+                },
+                {
+                  "date": "2021-05-12",
+                  "description": "PROCESSO ENCAMINHADO PARA O ARQUIVO - CERTIDAO DE TRANSITO EM JULGADO E ENC. AO ARQUIVO"
+                },
+                {
+                  "date": "2021-04-24",
+                  "description": "EXPEDIDO CERTIDAO - PRAZO EXPIRADO - INTIMACAO DE PORTAL ELETRONICO"
+                },
+                {
+                  "date": "2021-04-14",
+                  "description": "EXPEDIDO CERTIDAO - CERTIDAO DE REMESSA DA INTIMACAO PARA O PORTAL ELETRONICO"
+                },
+                {
+                  "date": "2021-03-30",
+                  "description": "PUBLICADO EM - DISPONIBILIZADO EM 29/03/2021TIPO DE PUBLICACAO: INTIMACAO DE ACORDAONUMERO DO DIARIO ELETRONICO: 3247"
+                }
+              ],
+              "authorType": "AGRAVADO"
+            },
+            {
+              "id": "cc15ba62142fc67297020be4805e3af7",
+              "distributionDate": "2015-06-23",
+              "lawsuitDegree": "2",
+              "lawsuitId": "10014396920145020612",
+              "lawBranch": "TRABALHISTA",
+              "segment": "JUSTICA DO TRABALHO",
+              "isJusticeSecret": false,
+              "observationStatus": "ATIVO",
+              "court": "TRT 2",
+              "state": "SP",
+              "actives": [
+                {
+                  "cpf": "14244072810",
+                  "name": "HAILTON ANJOS DOS SANTOS FILHO",
+                  "type": "RECORRENTE"
+                }
+              ],
+              "passives": [
+                {
+                  "cnpj": "31565104030327",
+                  "name": "PEPSICO DO BRASIL LTDA",
+                  "type": "RECORRIDO"
+                }
+              ],
+              "authorType": "RECORRENTE"
+            },
+            {
+              "id": "3f70dd36e9f4bb10102e2d83e4b194d8",
+              "distributionDate": "2014-08-15",
+              "lawsuitDegree": "1",
+              "judgingBody": "12 VARA DO TRABALHO DE SAO PAULO ZONA LESTE",
+              "lawsuitId": "10014396920145020612",
+              "lawBranch": "TRABALHISTA",
+              "segment": "JUSTICA DO TRABALHO",
+              "isJusticeSecret": false,
+              "observationStatus": "ARQUIVADO",
+              "court": "TRT 2",
+              "state": "SP",
+              "lawsuitUrl": "https://consulta.pje.trtsp.jus.br/consultaprocessual/pages/consultas/CaptchaProcesso.seam?p_num_pje=270137&p_grau_pje=1&numero_unic=&dt_autuacao=&cid=257358",
+              "subjects": [
+                "ADICIONAL DE INSALUBRIDADE",
+                "PENSAO VITALICIA",
+                "DOENCA OCUPACIONAL",
+                "HORAS EXTRAS",
+                "INTERVALO INTERJORNADAS",
+                "INDENIZACAO POR DANO MATERIAL",
+                "INDENIZACAO POR DANO MORAL",
+                "DIARIAS",
+                "ACIDENTE DE TRABALHO",
+                "REFLEXOS"
+              ],
+              "moves": [
+                {
+                  "date": "2016-06-16",
+                  "description": "COMPROVANTE PAGAMENTO HONORARIOS 1439 2014 DOCUMENTO DIVERSO DOCUMENTO RESTRITO"
+                },
+                {
+                  "date": "2016-06-16",
+                  "description": "CERTIDAO JUNTADA CERTIDAO DOCUMENTO RESTRITO"
+                },
+                {
+                  "date": "2016-01-22",
+                  "description": "ARQUIVADOS OS AUTOS DEFINITIVAMENTE"
+                },
+                {
+                  "date": "2016-01-22",
+                  "description": "TRANSITADO EM JULGADO EM 12 11 2015"
+                },
+                {
+                  "date": "2016-01-22",
+                  "description": "EXPEDIDO A OFICIO A O DESTINATARIO"
+                }
+              ],
+              "actives": [
+                {
+                  "cpf": "14244072810",
+                  "name": "HAILTON ANJOS DOS SANTOS FILHO",
+                  "type": "RECLAMANTE"
+                }
+              ],
+              "passives": [
+                {
+                  "cnpj": "31565104013074",
+                  "name": "PEPSICO DO BRASIL LTDA",
+                  "type": "RECLAMADO"
+                },
+                {
+                  "cnpj": "60624939000310",
+                  "name": "COMERCIO DE DOCES LUCKY LTDA",
+                  "type": "RECLAMADO"
+                }
+              ],
+              "authorType": "RECLAMANTE"
+            },
+            {
+              "id": "a6b6e9b7fefc391f357a503aa86bda4a",
+              "lawsuitClass": "PROCEDIMENTO SUMARIO",
+              "distributionDate": "2014-10-10",
+              "lawsuitDegree": "1",
+              "judgingBody": "2 VARA DE ACIDENTES DO TRABALHO",
+              "lawsuitId": "10428795520148260053",
+              "lawBranch": "CIVEL / ADMINISTRATIVO",
+              "segment": "JUSTICA ESTADUAL",
+              "isJusticeSecret": false,
+              "complementaryStatus": "EXTINTO",
+              "observationStatus": "JULGADO",
+              "court": "TJ SP",
+              "state": "SP",
+              "lawsuitUrl": "https://esaj.tjsp.jus.br/cpopg/show.do;jsessionid=14FDEB1C410D39353B8FBFD477C6B79F.cpopg11?processo.codigo=1H00076TG0000&processo.foro=53&processo.numero=1042879-55.2014.8.26.0053",
+              "lawsuitValue": {
+                "currency": "R$",
+                "value": 30000
+              },
+              "subjects": [
+                "AUXILIO-ACIDENTE (ART. 86)"
+              ],
+              "moves": [
+                {
+                  "date": "2022-05-05",
+                  "description": "ARQUIVADO DEFINITIVAMENTE"
+                },
+                {
+                  "date": "2022-05-04",
+                  "description": "CERTIDAO DE PUBLICACAO EXPEDIDA - RELACAO: 0207/2022DATA DA PUBLICACAO: 06/05/2022NUMERO DO DIARIO: 3499"
+                },
+                {
+                  "date": "2022-05-04",
+                  "description": "REMETIDO AO DJE - RELACAO: 0207/2022TEOR DO ATO: VISTOS. O(A) AUTOR(A) JUNTA PETICAO NESTE PROCESSO QUE JA ESTA ARQUIVADO. TODA MATERIA AFETA A EXECUCAO DEVE SER PETICIONADA NO CUMPRIMENTO DE SENTENCA DEPENDENTE. REGULARIZE A AUTORIA. TORNEM ESTES AUTOS AO ARQUIVO. INT.ADVOGADOS(S): ROSANGELA ELIAS MACEDO STOPPA (OAB 164782/SP), LEILA MARIA STOPPA PAZZINI (OAB 254541/SP)"
+                },
+                {
+                  "date": "2022-05-03",
+                  "description": "PROFERIDO DESPACHO DE MERO EXPEDIENTE - VISTOS. O(A) AUTOR(A) JUNTA PETICAO NESTE PROCESSO QUE JA ESTA ARQUIVADO. TODA MATERIA AFETA A EXECUCAO DEVE SER PETICIONADA NO CUMPRIMENTO DE SENTENCA DEPENDENTE. REGULARIZE A AUTORIA. TORNEM ESTES AUTOS AO ARQUIVO. INT."
+                },
+                {
+                  "date": "2022-05-03",
+                  "description": "CONCLUSOS PARA DESPACHO"
+                }
+              ],
+              "actives": [
+                {
+                  "cpf": "14244072810",
+                  "name": "HAILTON ANJOS DOS SANTOS FILHO",
+                  "type": "REQUERENTE"
+                }
+              ],
+              "passives": [
+                {
+                  "cnpj": "29979036077798",
+                  "name": "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
+                  "type": "REQUERIDO"
+                }
+              ],
+              "authorType": "REQUERENTE"
+            },
+            {
+              "id": "2d400091420bee3b0f9aca9f1918cf3c",
+              "lawsuitClass": "EXECUCAO DE SENTENCA",
+              "distributionDate": "2018-06-29",
+              "lawsuitDegree": "1",
+              "judgingBody": "2 VARA DE ACIDENTES DO TRABALHO",
+              "lawsuitId": "00209365720188260053",
+              "lawBranch": "CIVEL / ADMINISTRATIVO",
+              "segment": "JUSTICA ESTADUAL",
+              "complementaryStatus": "EXTINTO",
+              "observationStatus": "JULGADO",
+              "court": "TJ SP",
+              "state": "SP",
+              "sourceUnit": "FORO CENTRAL FAZENDA PUBLICA ACIDENTES",
+              "lawsuitUrl": "https://esaj.tjsp.jus.br/cpopg/show.do;jsessionid=FF1EABB9C549CA9CA053D0D7F4B1A666.cpopg9?processo.codigo=1H000D8K00000&processo.foro=53&processo.numero=0020936-57.2018.8.26.0053",
+              "subjects": [
+                "AUXILIO-ACIDENTE (ART. 86)"
+              ],
+              "moves": [
+                {
+                  "date": "2024-10-22",
+                  "description": "ARQUIVADO DEFINITIVAMENTE"
+                },
+                {
+                  "date": "2024-10-22",
+                  "description": "TRANSITO EM JULGADO AS PARTES COM BAIXA"
+                },
+                {
+                  "date": "2024-10-22",
+                  "description": "CERTIDAO DE TRANSITO EM JULGADO COM BAIXA EXPEDIDA - CERTIDAO - TRANSITO EM JULGADO COM BAIXA - PROCESSO DIGITAL"
+                },
+                {
+                  "date": "2024-08-29",
+                  "description": "SUSPENSAO DO PRAZO - PRAZO REFERENTE AO USUARIO FOI ALTERADO PARA 08/10/2024 DEVIDO A ALTERACAO DA TABELA DE FERIADOSPRAZO REFERENTE AO USUARIO FOI ALTERADO PARA 30/09/2024 DEVIDO A ALTERACAO DA TABELA DE FERIADOS"
+                },
+                {
+                  "date": "2024-08-10",
+                  "description": "CERTIDAO DE NAO CONSULTA AO TEOR DA INFORMACAO CONTAGEM DE PRAZO DO ATO EXPEDIDA - CERTIDAO DE NAO LEITURA - INTIMACAO - CONTAGEM DE PRAZO DO ATO"
+                }
+              ],
+              "actives": [
+                {
+                  "cpf": "14244072810",
+                  "name": "HAILTON ANJOS DOS SANTOS FILHO",
+                  "type": "REQTE",
+                  "lawyers": [
+                    {
+                      "name": "ROSANGELA ELIAS MACEDO STOPPA",
+                      "cpf": "25629251813"
+                    },
+                    {
+                      "name": "LEILA MARIA STOPPA PAZZINI",
+                      "cpf": "28924866885"
+                    }
+                  ]
+                }
+              ],
+              "passives": [
+                {
+                  "name": "INSTITUTO NACIONAL DO SEGURO SOCIAL INSS",
+                  "type": "REQDA"
+                }
+              ],
+              "authorType": "REQTE"
+            },
+            {
+              "id": "78cb0ecc8fe57ec2fb83ae6fb38a78e3",
+              "lawsuitClass": "REMESSA NECESSARIA CIVEL",
+              "distributionDate": "2017-08-17",
+              "lawsuitDegree": "2",
+              "judgingBody": "TRIBUNAL DE JUSTICA_17a CAMARA DE DIREITO PUBLICO",
+              "lawsuitId": "10428795520148260053",
+              "lawBranch": "CIVEL / ADMINISTRATIVO",
+              "segment": "JUSTICA ESTADUAL",
+              "isJusticeSecret": false,
+              "complementaryStatus": "ENCERRADO",
+              "observationStatus": "ATIVO",
+              "court": "TJ SP",
+              "state": "SP",
+              "lawsuitUrl": "https://esaj.tjsp.jus.br/cposg/search.do?conversationId=&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsulta=&paginaConsulta=0&numeroDigitoAnoUnificado=1042879-55.2014&foroNumeroUnificado=0053&dePesquisaNuUnificado=1042879-55.2014.8.26.0053&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO&uuidCaptcha=",
+              "lawsuitValue": {
+                "currency": "R$",
+                "value": 30000
+              },
+              "subjects": [
+                "DIREITO PREVIDENCIARIO - BENEFICIOS EM ESPECIE - AUXILIO-ACIDENTE (ART. 86)"
+              ],
+              "moves": [
+                {
+                  "date": "2018-04-19",
+                  "description": "EXPEDIDO CERTIDAO DE BAIXA DE RECURSO - CERTIDAO DE BAIXA DE RECURSO - [DIGITAL]"
+                },
+                {
+                  "date": "2018-04-19",
+                  "description": "BAIXA DEFINITIVA"
+                },
+                {
+                  "date": "2018-04-19",
+                  "description": "EXPEDIDO CERTIDAO - CERTIDAO DE TRANSITO EM JULGADO [DIGITAL]"
+                },
+                {
+                  "date": "2018-03-08",
+                  "description": "PRAZO"
+                },
+                {
+                  "date": "2018-03-08",
+                  "description": "EXPEDIDO CERTIDAO - CERTIDAO DE INTIMACAO DO INSS [DIG]"
+                }
+              ],
+              "actives": [
+                {
+                  "cpf": "00000184698",
+                  "name": "JUIZO EX OFFICIO",
+                  "type": "RECORRENTE"
+                }
+              ],
+              "passives": [
+                {
+                  "cpf": "14244072810",
+                  "name": "HAILTON ANJOS DOS SANTOS FILHO",
+                  "type": "RECORRIDO",
+                  "lawyers": [
+                    {
+                      "oab": "254541",
+                      "name": "LEILA MARIA STOPPA PAZZINI"
+                    },
+                    {
+                      "oab": "164782",
+                      "name": "ROSANGELA ELIAS MACEDO STOPPA"
+                    }
+                  ]
+                }
+              ],
+              "authorType": "RECORRIDO"
+            },
+            {
+              "id": "6a923c43565c7dfe207feb387e056e48",
+              "distributionDate": "2020-10-28",
+              "lawsuitDegree": "1",
+              "lawsuitId": "06007743320206260006",
+              "lawBranch": "ELEITORAL",
+              "segment": "JUSTICA ELEITORAL",
+              "isJusticeSecret": false,
+              "observationStatus": "ATIVO",
+              "court": "TRE-SP",
+              "state": "SP",
+              "authorType": "TIPOPARTE#1"
+            }
+          ]
+        },
+        "available": true
+      },
+      "pfArrestWarrant": {
+        "statusCode": "01",
+        "data": {
+          "status": "NADA CONSTA",
+          "message": "Consulta realizada com sucesso - Não foram encontrados mandados de prisão ou de internação pendentes de cumprimento para: NÚMERO DO DOCUMENTO DE IDENTIFICAÇÃO: 14244072810. Pesquisa realizada em 14/11/2025 às 11h50"
+        }
+      },
+      "pfKycCompliance": {
+        "statusCode": "01",
+        "data": {
+          "message": "Consulta realizada com sucesso",
+          "pepHistory": [],
+          "sanctionsHistory": [],
+          "isCurrentlyPEP": false,
+          "isCurrentlySanctioned": false,
+          "last30DaysSanctions": 0,
+          "last90DaysSanctions": 0,
+          "last180DaysSanctions": 0,
+          "last365DaysSanctions": 0,
+          "lastYearPEPOccurence": 0,
+          "last3YearsPEPOccurence": 0,
+          "last5YearsPEPOccurence": 0,
+          "last5PlusYearsPEPOccurence": 0,
+          "isCurrentlyElectoralDonor": false,
+          "isHistoricalElectoralDonor": false,
+          "totalElectoralDonations": 0,
+          "totalElectoralDonationAmount": 0,
+          "firstPEPOccurenceDate": "",
+          "lastPEPOccurenceDate": ""
+        }
+      },
+      "cpf": {
+        "statusCode": "00",
+        "registrationStatusCode": "00",
+        "registrationStatusMessage": "REGULAR",
+        "name": "HAILTON ANJOS DOS SANTOS FILHO",
+        "socialName": "",
+        "birthDate": "07/10/1969",
+        "issueDate": "anterior a 10/11/1990",
+        "deathYear": "",
+        "deathMessage": ""
+      },
+      "officialData": {
+        "source": "11",
+        "code": "01",
+        "confidence": 0.8152305,
+        "probability": "Alta probabilidade",
+        "queryDate": "2025-11-14T14:51:16.884Z"
+      },
+      "documentscopy": {
+        "status": "APPROVED",
+        "fraud": false,
+        "evaluation": [],
+        "reviewDate": "2025-11-14T14:51:49.589Z"
+      }
+    },
+    "history": [
+      {
+        "type": "START_PROCESS",
+        "status": "PROCESSING",
+        "date": "2025-11-14T14:44:18.108Z"
+      },
+      {
+        "status": "PENDING_OCR",
+        "type": "STATUS_UPDATE",
+        "date": "2025-11-14T14:44:27.500Z"
+      },
+      {
+        "status": "PROCESSING",
+        "type": "STATUS_UPDATE",
+        "date": "2025-11-14T14:51:10.596Z"
+      },
+      {
+        "status": "APPROVED",
+        "type": "STATUS_UPDATE",
+        "date": "2025-11-14T14:51:49.690Z"
+      }
+    ],
+    "metadata": {
+      "sessionId": "b29749b8-9e93-4f7d-a67e-d1d2bd9d4359",
+      "analyticsTrackingId": "0068ffc1f50002da321666623062633030612d373766332d343034612d396339372d616539343833626233333339",
+      "browser": {
+        "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/29.0 Chrome/136.0.0.0 Mobile Safari/537.36",
+        "userAgentData": {
+          "architecture": "",
+          "bitness": "",
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "136"
+            },
+            {
+              "brand": "Samsung Internet",
+              "version": "29.0"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "99"
+            }
+          ],
+          "fullVersionList": [
+            {
+              "brand": "Chromium",
+              "version": "136.0.7103.127"
+            },
+            {
+              "brand": "Samsung Internet",
+              "version": "29.0.0.59"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "99.0.0.0"
+            }
+          ],
+          "mobile": true,
+          "model": "SM-A057M",
+          "platform": "Android",
+          "platformVersion": "14.0.0",
+          "uaFullVersion": "136.0.7103.127",
+          "wow64": false
+        },
+        "browserName": "Samsung Internet for Android",
+        "browserVersion": "29.0",
+        "userReadBrowserCompatibilityTerms": false
+      },
+      "location": {
+        "latitude": -23.5450095,
+        "longitude": -46.4098316,
+        "altitude": 763.2999877929688,
+        "accuracy": 11.673999786376953,
+        "altitudeAccuracy": null,
+        "heading": null,
+        "speed": null
+      },
+      "documentOrigin": "uploadPDF",
+      "documentType": "CNH",
+      "documentIssuedCountry": "BR",
+      "partnerOrigin": null,
+      "extra": {
+        "origin": "TRUST"
+      },
+      "origin": "ONBOARDING_PF",
+      "type": "PF",
+      "templateOrigin": "TRUST"
+    },
+    "templateId": "687ab6238e188e0002234a4e",
+    "createdAt": "2025-11-14T14:44:17.946Z",
+    "detectedType": {
+      "execution": "new_cnh"
+    },
+    "fraud": false,
+    "fraudScore": {
+      "total": 245
+    },
+    "documentscopyRequestDate": "2025-11-14T14:51:22.088Z",
+    "variables": {
+      "link": "https://parcelamais.com/proposta/mpdaha"
+    },
+    "id": "6917404020056d000201c27d",
+    "statusReasons": [
+      {
+        "category": "VALIDATION",
+        "code": "has_document",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "shared_faceset_not_contains_face",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "selfie_is_not_similar",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "cpf_query",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "cpf_error_code",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "cpf_equal_name",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "cpf_has_not_dead",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "over_18",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "parameters_equals_receita",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "parameters_and_document_are_equal",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "is_literate",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "ocr_equals_parameters_data",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "facematch_has_selfie_photo",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "facematch_is_equal",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "documentscopy_approved",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "big_data_source_underage",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "has_no_pep",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "has_no_sanctions",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "has_arrest_warrant",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "has_no_defendant_processes",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      },
+      {
+        "category": "VALIDATION",
+        "code": "has_no_criminal_processes",
+        "status": "VALID",
+        "resultStatus": "APPROVED"
+      }
+    ],
+    "attributes": {
+      "name": "HAILTON ANJOS DOS SANTOS FILHO",
+      "cpf": "14244072810",
+      "email": "hailtonanjos@globo.com",
+      "phoneNumber": "5511992120300",
+      "birthDate": "07/10/1969",
+      "motherName": "DERCIONISIA SOUZA PEREIRA",
+      "rg": "23103763",
+      "rgIssueDate": "24/07/2023",
+      "issueDate": "24/07/2023",
+      "customForms": {},
+      "acceptedTermsData": [
+        {
+          "name": "Termos de Uso e Políticas de Privacidade",
+          "link": "https://www.combateafraude.com/politicas/termos-e-condicoes-de-uso",
+          "datetime": "2025-11-14T14:41:34.287Z",
+          "userIp": "2804:18:18b1:d343:680e:55fb:3d8d:641e",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/29.0 Chrome/136.0.0.0 Mobile Safari/537.36"
+        }
+      ]
+    },
+    "onboardingId": "69153a410a08790002b9bca7",
+    "onboardingToken": "e6e4483f9ae15bbf2ede3de1966fb19e"
+  },
+  "error": {
+    "status_code": 200,
+    "status_message": "OK"
+  },
+  "returned_an_error": false
+}
