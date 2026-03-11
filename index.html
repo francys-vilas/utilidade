@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de Utilidades</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1864f8; /* Azul estilo bubble */
+            --primary-hover: #104ebf;
+            --bg-color: #f3f6f9; /* Fundo super claro */
+            --card-bg: #ffffff; /* Card branco puro */
+            --text-color: #1a202c; /* Texto escuro */
+            --text-muted: #718096; /* Cinza claro */
+            --border-color: #e2e8f0; /* Borda cinza bem clara */
+            --danger: #e53e3e;
+            --success: #38a169;
+            --warning: #d69e2e;
+            --info: #3182ce;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--primary);
+            letter-spacing: -0.02em;
+        }
+
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            animation: fadeIn 0.8s ease-out 0.2s both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .filter-btn {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 0.6rem 1.2rem;
+            border-radius: 9999px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+
+        .filter-btn:hover {
+            border-color: #cbd5e0;
+            background: #f8fafc;
+            color: var(--text-color);
+        }
+
+        .filter-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(24, 100, 248, 0.2), 0 2px 4px -1px rgba(24, 100, 248, 0.1);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            animation: fadeIn 1s ease-out 0.4s both;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--card-color, var(--primary));
+        }
+
+        .card:hover {
+            transform: translateY(-4px) scale(1.01);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: #cbd5e0;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .icon-wrapper {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #f7fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--card-color, var(--primary));
+            border: 1px solid var(--border-color);
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            flex-grow: 1;
+            margin-bottom: 1.5rem;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            background: #edf2f7;
+            color: #4a5568;
+            font-weight: 600;
+            border: 1px solid #e2e8f0;
+        }
+        
+        /* Category Colors */
+        .card[data-category="dados"] { --card-color: var(--info); }
+        .card[data-category="imagens"] { --card-color: #ed64a6; } /* Rosa / Magenta suave */
+        .card[data-category="texto"] { --card-color: var(--warning); }
+        .card[data-category="outros"] { --card-color: var(--success); }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hub de Utilidades</h1>
+        <p class="subtitle">Sua central de ferramentas rápidas para facilitar o dia a dia. Selecione uma categoria abaixo ou navegue pelo grid.</p>
+    </header>
+
+    <div class="controls">
+        <button class="filter-btn active" data-filter="todos">Todas as Ferramentas</button>
+        <button class="filter-btn" data-filter="dados">Manipulação de Dados</button>
+        <button class="filter-btn" data-filter="imagens">Imagens</button>
+        <button class="filter-btn" data-filter="texto">Textos</button>
+        <button class="filter-btn" data-filter="outros">Outros</button>
+    </div>
+
+    <div class="grid-container" id="cards-grid">
+        <!-- Ferramenta Real -->
+        <a href="json_to_csv.html" class="card tool-card" data-category="dados">
+            <div class="card-header">
+                <div class="icon-wrapper">🔄</div>
+                <h2>JSON para CSV</h2>
+            </div>
+            <p>Converta de forma inteligente objetos JSON aninhados ou arrays diretamente para tabelas CSV formatadas.</p>
+            <div class="tags">
+                <span class="tag">Dados</span>
+                <span class="tag">Exportação</span>
+            </div>
+        </a>
+
+        <!-- Exemplos Fictícios de Funcionalidades Futuras -->
+        <a href="#" class="card tool-card" data-category="imagens">
+            <div class="card-header">
+                <div class="icon-wrapper">🖼️</div>
+                <h2>Compressor de Imagem</h2>
+            </div>
+            <p>Reduza o tamanho de imagens PNG e JPEG mantendo a qualidade visual para web usando processamento local.</p>
+            <div class="tags">
+                <span class="tag">Imagens</span>
+                <span class="tag">Otimização</span>
+            </div>
+        </a>
+
+        <a href="#" class="card tool-card" data-category="texto">
+            <div class="card-header">
+                <div class="icon-wrapper">✨</div>
+                <h2>Formatador JSON</h2>
+            </div>
+            <p>Cole seu JSON feio e minificado e receba ele formatado, indentado e fácil de ler com destaque de sintaxe.</p>
+            <div class="tags">
+                <span class="tag">Texto</span>
+                <span class="tag">JSON</span>
+            </div>
+        </a>
+
+        <a href="#" class="card tool-card" data-category="dados">
+            <div class="card-header">
+                <div class="icon-wrapper">📊</div>
+                <h2>CSV para JSON</h2>
+            </div>
+            <p>O inverso da nossa outra ferramenta. Transforme planilhas tabulares de volta em arrays de objetos estruturados.</p>
+            <div class="tags">
+                <span class="tag">Dados</span>
+                <span class="tag">Conversão</span>
+            </div>
+        </a>
+
+        <a href="#" class="card tool-card" data-category="outros">
+            <div class="card-header">
+                <div class="icon-wrapper">🔑</div>
+                <h2>Gerador de Senhas</h2>
+            </div>
+            <p>Crie senhas criptograficamente seguras com base em critérios de força, comprimento e símbolos especiais.</p>
+            <div class="tags">
+                <span class="tag">Segurança</span>
+                <span class="tag">Utilitário</span>
+            </div>
+        </a>
+
+        <a href="#" class="card tool-card" data-category="texto">
+            <div class="card-header">
+                <div class="icon-wrapper">📝</div>
+                <h2>Contador de Caracteres</h2>
+            </div>
+            <p>Analise textos grandes em tempo real. Veja a quantidade de palavras, caracteres limpos e tempo de leitura.</p>
+            <div class="tags">
+                <span class="tag">Texto</span>
+                <span class="tag">Análise</span>
+            </div>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const toolCards = document.querySelectorAll('.tool-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remover a classe active de todos os botões
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Adicionar apenas no clicado
+                    btn.classList.add('active');
+
+                    const filterValue = btn.getAttribute('data-filter');
+
+                    toolCards.forEach(card => {
+                        // Reseta a animação definindo display none brevemente
+                        card.style.display = 'none';
+                        
+                        // Lógica de filtragem com pequeno delay para "re-animar" (requereria recriar a prop de anim, o display=none resolve caso fosse transition. Faremos via opacity para ficar suave)
+                        const category = card.getAttribute('data-category');
+                        
+                        if (filterValue === 'todos' || filterValue === category) {
+                            card.style.display = 'flex';
+                            // Gatilhar reflow
+                            void card.offsetWidth;
+                            card.style.animation = 'none';
+                            card.style.animation = 'fadeIn 0.5s ease-out forwards';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
