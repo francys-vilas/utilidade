@@ -14,6 +14,14 @@ const tools: ToolCardProps[] = [
     href: "/json-to-csv"
   },
   {
+    title: "CSV para Xano",
+    description: "Converta arquivos CSV com formatação brasileira (vírgulas e pontos) para o padrão do banco de dados Xano.",
+    category: "dados",
+    icon: "🪄",
+    tags: ["Dados", "Tratamento", "Xano"],
+    href: "/csv-to-xano"
+  },
+  {
     title: "Compressor de Imagem",
     description: "Reduza o tamanho de imagens PNG e JPEG mantendo a qualidade visual para web usando processamento local.",
     category: "imagens",
